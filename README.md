@@ -246,9 +246,8 @@ export default Sun
 
 ## Built With
 
-<details>
-  <summary>This project was bootstrapped with [Vite](https://vitejs.dev/).</summary>
-## Scaffolding Your First Vite Project
+This project was bootstrapped with [Vite](https://vitejs.dev/).
+
 
 With NPM:
 ```sh
@@ -264,9 +263,6 @@ With PNPM:
 ```sh
   pnpm create vite
 ```
-
-</details>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
