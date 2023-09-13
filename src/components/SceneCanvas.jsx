@@ -1,15 +1,10 @@
 /* eslint-disable react/no-unknown-property */
-import { Canvas, extend, useThree } from '@react-three/fiber'
+import { Canvas, extend } from '@react-three/fiber'
 import Sun from './Sun'
 import { data } from '../data/SolarSystemData'
-import { Effects, Environment, OrbitControls, PerspectiveCamera, Stars } from '@react-three/drei'
 import PlanetSystem from './PlanetSystem'
-import hdr3 from '../assets/textures/hdr3.hdr'
 import CameraSystem from './CameraSystem'
 import { UnrealBloomPass } from 'three-stdlib'
-import { Bloom, EffectComposer, SelectiveBloom } from '@react-three/postprocessing'
-import { KernelSize } from 'postprocessing'
-import { useRef } from 'react'
 import PostProcessing from './PostProcessing'
 
 extend({ UnrealBloomPass })
