@@ -1,4 +1,4 @@
-# Netflix Clone
+# Three.js Solar System
 
 <!-- TABLE OF CONTENTS -->
 <details>
