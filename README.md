@@ -20,6 +20,12 @@
   </ol>
 </details>
 
+## Images
+
+![Screenshot](solarsystem_screenshot_01.png)
+
+![alt text](https://github.com/victorchtl/three-solar-system/blob/main/src/assests/screenshots/solarsystem_screenshot_01.png?raw=true)
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
