@@ -137,7 +137,7 @@ function PlanetOrbitLine({ radius }) {
 export default PlanetOrbitLine
 ```
 
-### Planet Orbit Line
+### Planet Caption
 
 ```js
 import { Html } from '@react-three/drei'
