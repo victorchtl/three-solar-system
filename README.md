@@ -22,9 +22,6 @@
 
 ## Images
 
-<details>
-  <summary>Screenshots</summary>
-
 ![alt text](https://github.com/victorchtl/three-solar-system/blob/main/src/assets/screenshots/solarsystem_screenshot_01.png?raw=true)
 
 ![alt text](https://github.com/victorchtl/three-solar-system/blob/main/src/assets/screenshots/solarsystem_screenshot_02.png?raw=true)
@@ -32,10 +29,6 @@
 ![alt text](https://github.com/victorchtl/three-solar-system/blob/main/src/assets/screenshots/solarsystem_screenshot_03.png?raw=true)
 
 ![alt text](https://github.com/victorchtl/three-solar-system/blob/main/src/assets/screenshots/solarsystem_screenshot_04.png?raw=true)
-
-</details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
