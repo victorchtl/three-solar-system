@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
-import { Ring } from '@react-three/drei'
 import { useLoader } from '@react-three/fiber'
-import { DoubleSide, TextureLoader } from 'three'
+import { TextureLoader } from 'three'
 import * as THREE from 'three'
 
 function PlanetRing({ ring }) {
@@ -29,15 +28,7 @@ function PlanetRing({ ring }) {
 
 
     return (
-        // <Ring args={[innerRadius, outerRadius, 64]} rotation={[Math.PI / 2, 0, 0]}>
-        //     <meshStandardMaterial
-        //         map={color}
-        //         side={DoubleSide}
-        //     />
-        // </Ring>
-        <mesh geometry={geometry} material={material} rotation={[Math.PI/2,0,0]}>
-
-        </mesh>
+        <mesh geometry={geometry} material={material} rotation={[Math.PI/2,0,0]} />
     )
 }
 

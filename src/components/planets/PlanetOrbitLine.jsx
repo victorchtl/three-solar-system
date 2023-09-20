@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Line } from '@react-three/drei';
-import { useStore } from '../store';
+import { useStore } from '../../store';
 
 function PlanetOrbitLine({ radius }) {
 

@@ -2,41 +2,16 @@
 /* eslint-disable react/no-unknown-property */
 import { Sphere } from '@react-three/drei';
 import { useFrame, useLoader } from '@react-three/fiber';
-import { Color, Depth, Fresnel, LayerMaterial, Texture } from 'lamina';
+import { Color, Fresnel, LayerMaterial, Texture } from 'lamina';
 import { useRef } from 'react'
 import { TextureLoader } from 'three';
-import * as THREE from 'three'
+
 
 function Planet({ diameter, base }) {
 
     const planetMeshRef = useRef();
 
     const baseColor = useLoader(TextureLoader, base)
-
-    const planetMaterial = new THREE.MeshStandardMaterial({
-        map: baseColor,
-
-
-    })
-
-    const sphereMaterial = (
-        <LayerMaterial
-            color="red"
-            lighting="basic"
-            transmission={0}
-        >
-            {/* <Depth
-          colorA="#810000" //
-          colorB="#ffd0d0"
-          alpha={0.5}
-          mode="multiply"
-          near={0}
-          far={2}
-          origin={[1, 1, 1]}
-        /> */}
-            <Color color={'red'} />
-        </LayerMaterial>
-    );
 
     useFrame(() => (
         planetMeshRef.current.rotation.y += 0.0005

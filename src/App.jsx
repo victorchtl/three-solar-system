@@ -1,13 +1,13 @@
 import './App.css'
 import SceneCanvas from './components/SceneCanvas'
-import Hud from './components/HUD/Hud'
+import Topbar from './components/topbar/Topbar'
 
 function App() {
 
   return (
     <>
+      <Topbar />
       <SceneCanvas />
-      <Hud />
     </>
   )
 }

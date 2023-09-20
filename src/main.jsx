@@ -4,10 +4,14 @@ import App from './App.jsx'
 import './index.css'
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material'
 import Exo from './fonts/Exo/Exo-VariableFont_wght.ttf'
+import { lightBlue } from '@mui/material/colors'
 
 const theme = createTheme({
   palette: {
     mode: 'dark',
+    primary:{
+      main: lightBlue['A400']
+    }
   },
   typography: {
     fontFamily: 'Exo',

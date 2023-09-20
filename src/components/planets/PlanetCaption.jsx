@@ -1,11 +1,13 @@
 /* eslint-disable react/prop-types */
 import { Html } from '@react-three/drei'
-import { useStore } from '../store'
-import { Box } from '@mui/material'
+import { useStore } from '../../store'
+import { Box, useTheme } from '@mui/material'
 
 function PlanetCaption({ name, action }) {
 
     const isCaptions = useStore((state) => state.isCaptions)
+
+    const theme = useTheme()
 
     return (
         <>
@@ -16,12 +18,12 @@ function PlanetCaption({ name, action }) {
                         onClick={action}
                         sx={{
                             zIndex: 900,
-                            color: 'primary.main',
+                            color: theme.palette.text.secondary,
                             userSelect: 'none',
                             fontSize: '10px',
                             cursor:'pointer',
                             '&:hover':{
-                                color: 'primary.light'
+                                color: theme.palette.primary.main
                             }
                         }}>
                         {name}

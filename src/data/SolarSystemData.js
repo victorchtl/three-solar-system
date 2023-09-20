@@ -34,7 +34,7 @@ export const data = {
         },
         "_3d": {
             "textures": {
-                "base": "src/assets/textures/sun.jpeg"
+                "base": "src/assets/textures/sun.jpg"
             }
         }
     },
@@ -64,7 +64,7 @@ export const data = {
             "satellites": [],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/mercury.jpeg",
+                    "base": "src/assets/textures/mercury.jpg",
                     "topo": "/src/assets/textures/mercury_topo.jpg"
                 }
             }
@@ -94,7 +94,7 @@ export const data = {
             "satellites": [],
             "_3d": {
                 "textures": {
-                    "base": "/src/assets/textures/venus.jpeg",
+                    "base": "/src/assets/textures/venus.jpg",
                     "topo": "/src/assets/textures/venus_topo.jpg"
                 }
             }
@@ -152,7 +152,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "/src/assets/textures/earth.jpeg",
+                    "base": "/src/assets/textures/earth.jpg",
                     "topo": "/src/assets/textures/earth_topo_4k.jpg",
                     "specular": "/src/assets/textures/earth_ocean_reflectance_10k.jpg",
                     "clouds": "/src/assets/textures/earth_clouds_active2.png"
@@ -227,7 +227,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/mars.jpeg",
+                    "base": "src/assets/textures/mars.jpg",
                     "topo": "/src/assets/textures/mars_topo.jpg"
                 }
             }
@@ -895,7 +895,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/jupiter.jpeg"
+                    "base": "src/assets/textures/jupiter.jpg"
                 }
             }
         },
@@ -1499,7 +1499,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/saturn.jpeg"
+                    "base": "src/assets/textures/saturn.jpg"
                 }
             }
         },
@@ -2054,7 +2054,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/uranus.jpeg"
+                    "base": "src/assets/textures/uranus.jpg"
                 }
             }
         },
@@ -2357,7 +2357,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/neptune.jpeg"
+                    "base": "src/assets/textures/neptune.jpg"
                 }
             }
         },
@@ -2492,7 +2492,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/pluto.jpeg"
+                    "base": "src/assets/textures/pluto.jpg"
                 }
             }
         }

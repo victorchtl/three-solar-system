@@ -2,37 +2,38 @@
 import { Canvas, extend } from '@react-three/fiber'
 import Sun from './Sun'
 import { data } from '../data/SolarSystemData'
-import PlanetSystem from './PlanetSystem'
+import PlanetSystem from './planets/PlanetSystem'
 import CameraSystem from './CameraSystem'
 import { UnrealBloomPass } from 'three-stdlib'
 import PostProcessing from './PostProcessing'
+import { Stars, useProgress } from '@react-three/drei'
+import { useStore } from '../store'
+import { Suspense } from 'react'
+import Loader from './Loader'
 
 extend({ UnrealBloomPass })
 
 function SceneCanvas() {
 
-    const planetScale = (number) => { return (number / 14000) }
+    const { planetScale } = useStore()
 
-    const planetDistanceScale = (number) => { return (number / 10000000) }
+    const { progress } = useProgress()
 
     return (
         <Canvas linear>
-
-            <Sun
-                diameter={planetScale(data.parent.diameter)}
-                base={data.parent._3d.textures.base}
-            />
-
-            {data.planets.map((planet, index) => (
-                <PlanetSystem key={planet.name + index} planet={planet} />
-            ))}
-
-            {/* <Stars radius={10000} depth={100} count={10000} factor={4} saturation={0} speed={1} /> */}
-            <pointLight position={[0, 0, 0]} name='sunlight' castShadow/>
-            {/* <ambientLight intensity={1} /> */}
-            <CameraSystem />
-            <PostProcessing />
-            
+            <Suspense fallback={<Loader progress={progress} />}>
+                <Sun
+                    diameter={data.parent.diameter / planetScale}
+                    base={data.parent._3d.textures.base}
+                />
+                {data.planets.map((planet, index) => (
+                    <PlanetSystem key={planet.name + index} planet={planet} />
+                ))}
+                <Stars radius={10000} depth={100} count={10000} factor={4} saturation={0} speed={1} />
+                <pointLight position={[0, 0, 0]} name='sunlight' castShadow />
+                <CameraSystem />
+                <PostProcessing />
+            </Suspense>
         </Canvas>
     )
 }

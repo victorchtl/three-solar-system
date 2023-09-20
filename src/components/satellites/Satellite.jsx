@@ -1,5 +1,5 @@
+/* eslint-disable react/prop-types */
 import { Sphere } from '@react-three/drei'
-import React, { useRef } from 'react'
 import { MeshStandardMaterial } from 'three'
 
 function Satellite({radius}) {
