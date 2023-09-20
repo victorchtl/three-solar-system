@@ -34,7 +34,7 @@ export const data = {
         },
         "_3d": {
             "textures": {
-                "base": "src/assets/textures/sun.jpg"
+                "base": "/src/assets/textures/sun.jpg"
             }
         }
     },
@@ -64,7 +64,7 @@ export const data = {
             "satellites": [],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/mercury.jpg",
+                    "base": "/src/assets/textures/mercury.jpg",
                     "topo": "/src/assets/textures/mercury_topo.jpg"
                 }
             }
@@ -137,7 +137,7 @@ export const data = {
                     },
                     "_3d": {
                         "textures": {
-                            "base": "src/assets/textures/earth/satellites/moon_1k.jpg",
+                            "base": "/src/assets/textures/earth/satellites/moon_1k.jpg",
                             "topo": "/src/assets/textures/earth/satellites/moon_topo_1k.jpg"
                         }
                     }
@@ -227,7 +227,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/mars.jpg",
+                    "base": "/src/assets/textures/mars.jpg",
                     "topo": "/src/assets/textures/mars_topo.jpg"
                 }
             }
@@ -257,8 +257,8 @@ export const data = {
                 "innerRadius": 110500,
                 "outerRadius": 129000,
                 "textures": {
-                    "base": "src/assets/textures/jupiter_ring_color.png",
-                    "alpha": "src/assets/textures/jupiter_ring_alpha.png"
+                    "base": "/src/assets/textures/jupiter_ring_color.png",
+                    "alpha": "/src/assets/textures/jupiter_ring_alpha.png"
                 }
             },
             "satellites": [
@@ -895,7 +895,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/jupiter.jpg"
+                    "base": "/src/assets/textures/jupiter.jpg"
                 }
             }
         },
@@ -924,8 +924,8 @@ export const data = {
                 "innerRadius": 74510,
                 "outerRadius": 140220,
                 "textures": {
-                    "base": "src/assets/textures/saturn_ring_color.png",
-                    "alpha": "src/assets/textures/saturn_ring_alpha.png"
+                    "base": "/src/assets/textures/saturn_ring_color.png",
+                    "alpha": "/src/assets/textures/saturn_ring_alpha.png"
                 }
             },
             "satellites": [
@@ -1499,7 +1499,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/saturn.jpg"
+                    "base": "/src/assets/textures/saturn.jpg"
                 }
             }
         },
@@ -2054,7 +2054,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/uranus.jpg"
+                    "base": "/src/assets/textures/uranus.jpg"
                 }
             }
         },
@@ -2357,7 +2357,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/neptune.jpg"
+                    "base": "/src/assets/textures/neptune.jpg"
                 }
             }
         },
@@ -2492,7 +2492,7 @@ export const data = {
             ],
             "_3d": {
                 "textures": {
-                    "base": "src/assets/textures/pluto.jpg"
+                    "base": "/src/assets/textures/pluto.jpg"
                 }
             }
         }
